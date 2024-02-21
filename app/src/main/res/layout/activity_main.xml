@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:layout_gravity="center_vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_celcius"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_row="0"
+        android:layout_rowWeight="1"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:background="@android:drawable/btn_default"
+        android:text="@string/celcius" />
+
+    <Button
+        android:id="@+id/btn_fahrenheit"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_row="0"
+        android:layout_rowWeight="1"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:background="@android:drawable/btn_default"
+        android:text="@string/fahrenheit" />
+
+    <Button
+        android:id="@+id/btn_kelvin"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_row="1"
+        android:layout_rowWeight="1"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:background="@android:drawable/btn_default"
+        android:text="@string/kelvin" />
+
+    <Button
+        android:id="@+id/btn_reamur"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_row="1"
+        android:layout_rowWeight="1"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:background="@android:drawable/btn_default"
+        android:text="@string/reamur" />
+</GridLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TemperatureConversion</string>
+    <string name="celcius">Celcius</string>
+    <string name="fahrenheit">Fahrenheit</string>
+    <string name="kelvin">Kelvin</string>
+    <string name="reamur">Reamur</string>
+    <string name="type_value">Type Value</string>
+    <string name="convert">Convert</string>
+    <string name="result">Result</string>
+    <string name="invalid">Invalid conversion type</string>
+    <string name="empty">This field can\'t be empty</string>
+</resources>
