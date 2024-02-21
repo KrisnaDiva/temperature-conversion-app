@@ -9,4 +9,5 @@
     <string name="result">Result</string>
     <string name="invalid">Invalid conversion type</string>
     <string name="empty">This field can\'t be empty</string>
+    <string name="exit">Please click BACK again to exit</string>
 </resources>
